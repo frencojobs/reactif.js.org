@@ -1,0 +1,14 @@
+{
+  "name": "reactif.js.org",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "docs:build": "vuepress build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
