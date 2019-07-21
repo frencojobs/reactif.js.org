@@ -45,7 +45,7 @@ module.exports = {
       "link",
       {
         rel: "stylesheet",
-        href: "https://awesome-ramanujan-344525.netlify.com/main.css"
+        href: "https://myfonts.netlify.com/main.css"
       }
     ]
   ],
