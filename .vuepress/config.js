@@ -45,7 +45,7 @@ module.exports = {
       "link",
       {
         rel: "stylesheet",
-        href: "/main.css"
+        href: "/fonts/main.css"
       }
     ]
   ],
