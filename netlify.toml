@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "https://reactif.js.org/:splat"
-  status = 200
-  force = true
