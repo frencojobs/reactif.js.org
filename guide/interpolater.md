@@ -53,7 +53,7 @@ The best thing about interpolaters is that they have access to the object itself
 // register a new interpolater
 new Interpolater("SquareOfx", function(config, self) {
   // Here self is the object itself
-  return !!self.x && self.x * self.x;
+  return !!self.x ? self.x * self.x : !!self.x;
 });
 ```
 
