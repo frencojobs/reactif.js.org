@@ -12,14 +12,11 @@ Assuming as you want a property `total`, that changes according to the propertie
 ```javascript
 import { act, Releaser } from "reactif-core";
 
-let sales = act(
-  {
+let sales = act({
     price: 5,
     quantity: 2,
     total: Releaser(self => self.price * self.quantity)
-  },
-  function() {}
-);
+  });
 
 sales.total; // 10
 sales.price = 10;
